@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open Tabs</title>
+    <script>
+        window.onload = function() {
+            const urls = [
+                "https://google.com/",
+                "https://google.com/",
+                "https://google.com/",
+                "https://google.com",
+                "https://google.com",
+                "https://google.com",
+                "https://google.com",
+                "https://google.com"
+            ];
+            
+            urls.forEach(url => {
+                window.open(url, '_blank');
+            });
+        };
+    </script>
+</head>
+<body>
+    <p>Opening pages...</p>
+</body>
+</html>
